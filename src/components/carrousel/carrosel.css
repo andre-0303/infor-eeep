@@ -1,14 +1,18 @@
 @keyframes slide {
-    0% {
-      transform: translateX(0);
-    }
-  
-    100% {
-      transform: translateX(-50%);
-    }
+  0% {
+    transform: translateX(0%);
   }
-  
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide {
+  animation: slide 40s linear infinite;
+}
+
+@media (max-width: 768px) {
   .animate-slide {
-    animation: slide 30s linear infinite;
+    animation-duration: 42s;
   }
-  
+}

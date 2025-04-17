@@ -4,7 +4,8 @@ import Image from "next/image"
 import "./carrosel.css"
 
 export default function Carrousel() {
-  const images = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5];
+  const baseImages = [1, 2, 3, 4, 5];
+  const images = [...baseImages, ...baseImages, ...baseImages]; 
 
   return (
     <div className="relative bg-[#1B09AF] text-white py-12 w-full overflow-hidden">
@@ -13,15 +14,14 @@ export default function Carrousel() {
         <div className="w-16 md:w-24 h-1 bg-white mt-1 mb-6 rounded-full"></div>
       </div>
 
-      {/* Fades laterais */}
       <div className="absolute top-0 left-0 w-16 sm:w-24 h-full bg-gradient-to-r from-[#1B09AF] to-transparent z-20 pointer-events-none" />
       <div className="absolute top-0 right-0 w-16 sm:w-24 h-full bg-gradient-to-l from-[#1B09AF] to-transparent z-20 pointer-events-none" />
 
-      <div className="slider-track flex gap-4 md:gap-6 animate-slide px-4 md:px-6 py-7 relative z-10">
+      <div className="slider-track flex gap-4 md:gap-6 animate-slide px-4 md:px-6 py-7 relative z-10 w-max">
         {images.map((num, index) => (
           <div
             key={index}
-            className="flex-shrink-0 w-60 h-40 md:w-80 md:h-72 rounded-xl overflow-hidden shadow-lg"
+            className="flex-shrink-0 w-60 h-40 md:w-80 md:h-80 min-w-[240px] rounded-xl overflow-hidden shadow-lg"
           >
             <Image
               src={`/img${num}.png`}
