@@ -8,13 +8,13 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold text-sm mb-2">Siga-nos:</h3>
           <div className="flex gap-3 mb-4">
-            <a href="#" aria-label="Instagram" className="hover:text-gray-300">
+            <a href="https://www.instagram.com/eeepdepjosemariamelo" aria-label="Instagram" className="hover:text-gray-300">
               <Instagram size={20} />
             </a>
-            <a href="#" aria-label="Facebook" className="hover:text-gray-300">
+            <a href="https://www.facebook.com/eeepdepjosemariamelo/" aria-label="Facebook" className="hover:text-gray-300">
               <Facebook size={20} />
             </a>
-            <a href="#" aria-label="YouTube" className="hover:text-gray-300">
+            <a href="https://www.youtube.com/channel/UCpD_tFJUdFzGic6wIYeLwWg" aria-label="YouTube" className="hover:text-gray-300">
               <Youtube size={20} />
             </a>
           </div>
