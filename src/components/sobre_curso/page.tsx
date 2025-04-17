@@ -7,6 +7,7 @@ export default function SobreCurso() {
         <h2 className="text-2xl md:text-3xl font-bold mb-2 md:mb-4 text-left">
           Sobre o curso
         </h2>
+        <div className="w-20 h-1 bg-[#1B09AF] mt-2 mb-6 rounded-full"></div>
         <p className="text-sm md:text-lg leading-normal md:leading-relaxed text-justify">
           A E.E.E.P. Deputado José Maria Melo oferece o Curso Técnico em 
           Informática, que visa formar profissionais qualificados para atuar 
