@@ -22,7 +22,7 @@ O site foi desenvolvido utilizando **Next.js** com suporte a **Tailwind CSS**, o
 
 ## 🚀 Tecnologias Utilizadas
 
-- **Next.js** (versão canary)
+- **Next.js** 
 - **React**
 - **Tailwind CSS**
 - **Lucide React** (ícones)
