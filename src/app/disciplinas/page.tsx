@@ -45,8 +45,8 @@ export default function Materias() {
             <p>Conheça as linguagens essenciais da construção de sites e interfaces web.</p>
           </li>
           <li>
-            <h4 className="font-semibold">Gestão de Startups</h4>
-            <p>Introdução ao empreendedorismo digital e à criação de negócios inovadores na área de tecnologia.</p>
+            <h4 className="font-semibold">Arquitetura e Manutenção de Computadores</h4>
+            <p>Aprender sobre os componentes de um computador assim como a montagem e desmontagem dele.</p>
           </li>
           <li>
             <h4 className="font-semibold">Planejamento de Carreira</h4>
@@ -87,6 +87,10 @@ export default function Materias() {
               <h4 className="font-semibold">Sistemas Operacionais</h4>
               <p>Entenda como funcionam os sistemas que gerenciam os recursos dos computadores.</p>
             </li>
+            <li>
+            <h4 className="font-semibold">Gestão de Startups</h4>
+            <p>Introdução ao empreendedorismo digital e à criação de negócios inovadores na área de tecnologia.</p>
+          </li>
           </ul>
 
           <ul className="list-disc pl-5 space-y-4">
