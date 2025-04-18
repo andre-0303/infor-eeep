@@ -19,7 +19,7 @@ export default function Navbar() {
           <Link href="/sobre" className="hover:text-gray-300">Sobre</Link>
           <Link href="/disciplinas" className="hover:text-gray-300">Disciplinas</Link>
           <Link href="/projetos" className="hover:text-gray-300">Projetos</Link>
-          <Link href="/contato" className="hover:text-gray-300">Contato</Link>
+          <Link href="/contatos" className="hover:text-gray-300">Contato</Link>
         </nav>
 
         <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden" aria-label="Menu">
@@ -32,7 +32,7 @@ export default function Navbar() {
           <Link href="/sobre" className="block text-white hover:text-gray-300">Sobre</Link>
           <Link href="/disciplinas" className="block text-white hover:text-gray-300">Disciplinas</Link>
           <Link href="/projetos" className="block text-white hover:text-gray-300">Projetos</Link>
-          <Link href="/contato" className="block text-white hover:text-gray-300">Contato</Link>
+          <Link href="/contatos" className="block text-white hover:text-gray-300">Contato</Link>
         </nav>
       )}
     </header>
