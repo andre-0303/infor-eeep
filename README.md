@@ -30,6 +30,10 @@ O site foi desenvolvido utilizando **Next.js** com suporte a **Tailwind CSS**, o
 
 ---
 
+## 🎨 Wireframes no Figma
+[Telas no Figma](https://www.figma.com/design/73mTtm1Duwtfllffpr5RPZ/infor-eeep?node-id=0-1&t=0ZFfaQZj7qBc2HCE-1)
+
+---
 ## 📁 Estrutura de Pastas
 
 ```bash
