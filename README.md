@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Curso Técnico em Informática - EEEP Deputado José Maria Melo
 
-First, run the development server:
+Bem-vindo ao repositório oficial do **Curso Técnico em Informática** da **Escola Estadual de Educação Profissional Deputado José Maria Melo**, localizada em Guaraciaba do Norte, Ceará.
+
+Este projeto é o site institucional do curso, desenvolvido por alunos e professores, com o objetivo de divulgar informações sobre a formação, disciplinas, projetos e formas de contato.
+
+---
+
+## 📘 Sobre o Projeto
+
+O site foi desenvolvido utilizando **Next.js** com suporte a **Tailwind CSS**, oferecendo uma experiência moderna, responsiva e acessível.
+
+### Principais seções do site:
+
+- **Informações sobre o curso**: objetivos, estrutura, metodologia de ensino.
+- **Disciplinas**: grade curricular dividida por anos.
+- **Projetos**: iniciativas dos alunos, como práticas com Arduino e manutenção de computadores.
+- **Contato**: informações de endereço, telefone, redes sociais e mais.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Next.js** 
+- **React**
+- **Tailwind CSS**
+- **Lucide React** (ícones)
+- **Vercel** (deploy e hospedagem)
+
+---
+
+## 🎨 Wireframes no Figma
+[Telas no Figma](https://www.figma.com/design/73mTtm1Duwtfllffpr5RPZ/infor-eeep?node-id=0-1&t=0ZFfaQZj7qBc2HCE-1)
+
+---
+## 📁 Estrutura de Pastas
+
+```bash
+src/
+├── app/
+│   ├── page.tsx                # Página inicial
+│   ├── layout.tsx              # Layout base do app
+│   ├── globals.css             # Estilos globais
+│   ├── contatos/
+│   │   └── page.tsx            # Página de Contato
+│   ├── disciplinas/
+│   │   └── page.tsx            # Página de Disciplinas
+│   ├── projetos/
+│   │   └── page.tsx            # Página de Projetos
+│   ├── sobre/
+│   │   └── page.tsx            # Página Sobre o curso
+├── components/
+│   ├── banner/
+│   │   └── page.tsx
+│   ├── carrousel/
+│   │   ├── page.tsx
+│   │   └── carrossel.css
+│   ├── footer/
+│   │   └── page.tsx
+│   ├── navbar/
+│   │   └── page.tsx
+│   ├── sobre_curso/
+│   │   └── page.tsx
+├── public/
+│   └── logo.png                # Logotipo da escola/curso
+```
+
+---
+
+## 🧪 Como Executar o Projeto Localmente
+
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/seu-usuario/infor-eeep.git
+```
+
+2. **Acesse o diretório do projeto:**
+
+```bash
+cd infor-eeep
+```
+
+3. **Instale as dependências:**
+
+```bash
+npm install
+```
+
+4. **Execute o projeto em ambiente de desenvolvimento:**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. **Abra o navegador e acesse:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌐 Deploy
 
-To learn more about Next.js, take a look at the following resources:
+O projeto está disponível em produção via **Vercel**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔗 [https://infor-eeep.vercel.app](https://infor-eeep.vercel.app)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🤝 Contribuições
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contribuições são bem-vindas! Siga os passos abaixo:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Fork este repositório.
+2. Crie uma branch com sua feature ou correção:
+   ```bash
+   git checkout -b feature/nova-feature
+   ```
+3. Faça o commit das suas alterações:
+   ```bash
+   git commit -m "feat: adiciona nova feature"
+   ```
+4. Envie para o seu repositório remoto:
+   ```bash
+   git push origin feature/nova-feature
+   ```
+5. Abra um Pull Request.
+
+---
+
+## 📄 Licença
+
+© 2025 Bandeira Dev — Todos os direitos reservados.
