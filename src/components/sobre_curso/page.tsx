@@ -17,7 +17,7 @@ export default function SobreCurso() {
       </div>
 
       <div className="md:w-1/2 w-full">
-        <div className="relative w-full h-60 md:h-96 rounded-xl overflow-hidden shadow-lg">
+        <div className="relative w-full h-60 md:h-96 rounded-xl overflow-hidden shadow-lg mb-0">
           <Image
             src="/sobre_curso.jpg"
             alt="Sobre Curso"
