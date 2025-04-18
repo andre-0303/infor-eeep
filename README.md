@@ -1,115 +1,132 @@
+
 # Curso Técnico em Informática - EEEP Deputado José Maria Melo
 
-Bem-vindo ao repositório oficial do **Curso Técnico em Informática** da **Escola Estadual de Educação Profissional Deputado José Maria Melo**, localizada em Guaraciaba do Norte, Ceará. Este projeto é o site oficial do curso, desenvolvido pelos alunos e professores para divulgar informações sobre o curso, disciplinas, projetos e formas de contato.
+Bem-vindo ao repositório oficial do **Curso Técnico em Informática** da **Escola Estadual de Educação Profissional Deputado José Maria Melo**, localizada em Guaraciaba do Norte, Ceará.
 
-## Sobre o Projeto
+Este projeto é o site institucional do curso, desenvolvido por alunos e professores, com o objetivo de divulgar informações sobre a formação, disciplinas, projetos e formas de contato.
 
-Este site foi criado com o objetivo de apresentar o **Curso Técnico em Informática** oferecido pela EEEP Deputado José Maria Melo. Ele destaca:
+---
 
-- **Informações sobre o curso**: Objetivos, grade curricular e metodologia de ensino.
-- **Disciplinas**: Detalhamento das matérias ao longo dos três anos do curso.
-- **Projetos**: Exemplos de projetos desenvolvidos pelos alunos, como o próprio site, práticas com Arduino e manutenção de computadores.
-- **Contato**: Informações de endereço, e-mail, telefone e redes sociais para comunicação com a escola.
+## 📘 Sobre o Projeto
 
-O site foi construído utilizando **Next.js** com **React** e estilizado com **Tailwind CSS**, garantindo uma interface moderna, responsiva e acessível.
+O site foi desenvolvido utilizando **Next.js** com suporte a **Tailwind CSS**, oferecendo uma experiência moderna, responsiva e acessível.
 
-## Tecnologias Utilizadas
+### Principais seções do site:
 
-- **Next.js**: Framework React para renderização do lado do servidor e geração de sites estáticos.
-- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.
-- **Lucide React**: Biblioteca de ícones para elementos visuais.
-- **Vercel**: Plataforma de deploy utilizada para hospedagem do site.
+- **Informações sobre o curso**: objetivos, estrutura, metodologia de ensino.
+- **Disciplinas**: grade curricular dividida por anos.
+- **Projetos**: iniciativas dos alunos, como práticas com Arduino e manutenção de computadores.
+- **Contato**: informações de endereço, telefone, redes sociais e mais.
 
-## Estrutura do Projeto
+---
 
-O projeto está organizado em componentes principais que representam as seções do site:
+## 🚀 Tecnologias Utilizadas
 
-- **Navbar**: Barra de navegação responsiva com links para as páginas principais.
-- **Banner**: Seção inicial com imagem de destaque e mensagem introdutória.
-- **SobreCurso**: Informações gerais sobre o curso técnico.
-- **Carrousel**: Carrossel de imagens mostrando atividades do curso.
-- **Sobre**: Detalhamento dos objetivos, grade curricular e infraestrutura.
-- **Materias**: Lista de disciplinas divididas por ano do curso.
-- **Projetos**: Galeria de projetos realizados pelos alunos.
-- **Contatos**: Informações de contato e links para redes sociais.
-- **Footer**: Rodapé com informações adicionais e links para redes sociais.
+- **Next.js** (versão canary)
+- **React**
+- **Tailwind CSS**
+- **Lucide React** (ícones)
+- **Vercel** (deploy e hospedagem)
 
-### Estrutura de Arquivos
+---
 
-```
+## 📁 Estrutura de Pastas
+
+```bash
+src/
+├── app/
+│   ├── page.tsx                # Página inicial
+│   ├── layout.tsx              # Layout base do app
+│   ├── globals.css             # Estilos globais
+│   ├── contatos/
+│   │   └── page.tsx            # Página de Contato
+│   ├── disciplinas/
+│   │   └── page.tsx            # Página de Disciplinas
+│   ├── projetos/
+│   │   └── page.tsx            # Página de Projetos
+│   ├── sobre/
+│   │   └── page.tsx            # Página Sobre o curso
 ├── components/
-│   ├── Banner.jsx
-│   ├── Carrousel.jsx
-│   ├── Contatos.jsx
-│   ├── Footer.jsx
-│   ├── Materias.jsx
-│   ├── Navbar.jsx
-│   ├── Projetos.jsx
-│   ├── Sobre.jsx
-│   ├── SobreCurso.jsx
+│   ├── banner/
+│   │   └── page.tsx
+│   ├── carrousel/
+│   │   ├── page.tsx
+│   │   └── carrossel.css
+│   ├── footer/
+│   │   └── page.tsx
+│   ├── navbar/
+│   │   └── page.tsx
+│   ├── sobre_curso/
+│   │   └── page.tsx
 ├── public/
-│   ├── images/
-│   │   ├── banner.jpg
-│   │   ├── sobre_curso.jpg
-│   │   ├── projeto1.png
-│   │   ├── ...
-├── styles/
-│   ├── carrosel.css
-├── pages/
-│   ├── index.jsx
-│   ├── sobre.jsx
-│   ├── disciplinas.jsx
-│   ├── projetos.jsx
-│   ├── contatos.jsx
-├── package.json
-├── README.md
+│   └── logo.png                # Logotipo da escola/curso
 ```
 
-## Como Executar o Projeto
+---
 
-Para rodar o projeto localmente, siga os passos abaixo:
+## 🧪 Como Executar o Projeto Localmente
 
-1. **Clone o repositório**:
+1. **Clone o repositório:**
 
+```bash
+git clone https://github.com/seu-usuario/infor-eeep.git
+```
+
+2. **Acesse o diretório do projeto:**
+
+```bash
+cd infor-eeep
+```
+
+3. **Instale as dependências:**
+
+```bash
+npm install
+```
+
+4. **Execute o projeto em ambiente de desenvolvimento:**
+
+```bash
+npm run dev
+```
+
+5. **Abra o navegador e acesse:**
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🌐 Deploy
+
+O projeto está disponível em produção via **Vercel**:
+
+🔗 [https://infor-eeep.vercel.app](https://infor-eeep.vercel.app)
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Siga os passos abaixo:
+
+1. Fork este repositório.
+2. Crie uma branch com sua feature ou correção:
    ```bash
-   git clone https://github.com/andre-0303/infor-eeep.git
+   git checkout -b feature/nova-feature
    ```
-
-2. **Acesse o diretório do projeto**:
-
+3. Faça o commit das suas alterações:
    ```bash
-   cd curso-informatica
+   git commit -m "feat: adiciona nova feature"
    ```
-
-3. **Instale as dependências**:
-
+4. Envie para o seu repositório remoto:
    ```bash
-   npm install
+   git push origin feature/nova-feature
    ```
-
-4. **Inicie o servidor de desenvolvimento**:
-
-   ```bash
-   npm run dev
-   ```
-
-5. **Acesse o site**: Abra o navegador e vá para `http://localhost:3000`.
-
-## Deploy
-
-O site está hospedado na **Vercel** e pode ser acessado em: [https://infor-eeep.vercel.app/].
-
-## Contribuição
-
-Este projeto é mantido pelos alunos e professores do Curso Técnico em Informática. Contribuições são bem-vindas! Para contribuir:
-
-1. Faça um fork do repositório.
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).
-3. Commit suas alterações (`git commit -m 'Adiciona nova feature'`).
-4. Envie para o repositório remoto (`git push origin feature/nova-feature`).
 5. Abra um Pull Request.
 
-## Licença
+---
 
-© 2025 Bandeira Dev
+## 📄 Licença
+
+© 2025 Bandeira Dev — Todos os direitos reservados.
