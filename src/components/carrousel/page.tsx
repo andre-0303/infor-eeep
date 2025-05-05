@@ -8,7 +8,7 @@ export default function Carrousel() {
   const images = [...baseImages, ...baseImages, ...baseImages]; 
 
   return (
-    <div className="relative bg-[#1B09AF] text-white py-12 w-full overflow-hidden">
+    <div className="relative bg-[#1B09AF] text-white py-12 w-full overflow-hidden -mt-20">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <h2 className="text-2xl md:text-3xl font-bold">Um pouco do que acontece no curso</h2>
         <div className="w-16 md:w-24 h-1 bg-white mt-1 mb-6 rounded-full"></div>
