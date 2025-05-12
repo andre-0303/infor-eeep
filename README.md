@@ -73,7 +73,7 @@ src/
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/infor-eeep.git
+git clone https://github.com/andre-0303/infor-eeep.git
 ```
 
 2. **Acesse o diretório do projeto:**
